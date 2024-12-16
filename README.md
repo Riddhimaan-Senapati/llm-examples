@@ -42,6 +42,26 @@ OPENAI_API_KEY='xxxxxxxxxx'
 
 ## Run it locally
 
+1. Open a terminal and navigate to your project folder.
+2. Copy the following code in your terminal
+### For Windows Powershell
+
+```sh
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+streamlit run Chatbot.py
+```
+### For Windows Command
+
+```sh
+python -m venv .venv
+.venv\Scripts\activate.bat
+pip install -r requirements.txt
+streamlit run Chatbot.py
+```
+### For MacOS/Linux
+
 ```sh
 virtualenv .venv
 source .venv/bin/activate
