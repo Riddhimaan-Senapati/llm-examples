@@ -52,7 +52,7 @@ python -m venv .venv
 pip install -r requirements.txt
 streamlit run Chatbot.py
 ```
-### For Windows Command
+### For Windows Command Prompt
 
 ```sh
 python -m venv .venv
@@ -63,7 +63,7 @@ streamlit run Chatbot.py
 ### For MacOS/Linux
 
 ```sh
-virtualenv .venv
+python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run Chatbot.py
