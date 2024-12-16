@@ -10,7 +10,6 @@ with st.sidebar:
     "[View the source code](https://github.com/streamlit/llm-examples/blob/main/pages/4_Langchain_PromptTemplate.py)"
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
-openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 
 
 def blog_outline(topic):
